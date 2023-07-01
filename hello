@@ -1,0 +1,17 @@
+def hello_world():
+    print("Hello, world!")
+
+def add_numbers(a, b):
+    return a + b
+
+def subtract_numbers(a, b):
+    return a - b
+
+# Пример использования функций
+hello_world()
+
+result = add_numbers(5, 3)
+print("Результат сложения:", result)
+
+result = subtract_numbers(10, 7)
+print("Результат вычитания:", result)
